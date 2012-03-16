@@ -1,0 +1,37 @@
+This python script checks target.com for iPad inventory.
+
+Author: Ian Scott <ian@polpo.org>
+https://github.com/polpo/ipad-target.py
+
+Usage:
+./ipad-target.py mode zip [dpci] [dpci]...
+
+mode can be either 'print' to simply print the results, or 'email' to email
+them. Currently the email address is hardcoded in the script.
+
+zip is the zip code to search.
+
+dpci is Target's stock identifier for the iPad you're looking for. You can
+specify multiple dpcis, or none, which will cause the script to look for all
+iPad models around the specified zip code.
+
+List of DPCIs:
+ 057-10-2020: 16GB The new iPad with Wi-Fi - Black (MC705LL/A)
+ 057-10-2021: 16GB The new iPad with Wi-Fi - White (MD328LL/A)
+ 057-10-2022: 32GB The new iPad with Wi-Fi - Black (MC706LL/A)
+ 057-10-2023: 32GB The new iPad with Wi-Fi - White (MD329LL/A)
+ 057-10-2024: 64GB The new iPad with Wi-Fi - Black (MC707LL/A)
+ 057-10-2025: 64GB The new iPad with Wi-Fi - White (MD330LL/A)
+ 057-10-2026: 16GB The new iPad with Wi-Fi + 4G for AT&T - Black (MD366LL/A)
+ 057-10-2027: 16GB The new iPad with Wi-Fi + 4G for AT&T - White (MD369LL/A)
+ 057-10-2028: 32GB The new iPad with Wi-Fi + 4G for AT&T - Black (MD367LL/A)
+ 057-10-2029: 32GB The new iPad with Wi-Fi + 4G for AT&T - White (MD370LL/A)
+ 057-10-2030: 64GB The new iPad with Wi-Fi + 4G for AT&T - Black (MD368LL/A)
+ 057-10-2031: 64GB The new iPad with Wi-Fi + 4G for AT&T - White (MD371LL/A)
+ 057-10-2032: 16GB The new iPad with Wi-Fi + 4G for Verizon - Black (MC733LL/A)
+ 057-10-2033: 16GB The new iPad with Wi-Fi + 4G for Verizon - White (MD363LL/A)
+ 057-10-2034: 32GB The new iPad with Wi-Fi + 4G for Verizon - Black (MC744LL/A)
+ 057-10-2036: 32GB The new iPad with Wi-Fi + 4G for Verizon - White (MD364LL/A)
+ 057-10-2037: 64GB The new iPad with Wi-Fi + 4G for Verizon - Black (MC756LL/A)
+ 057-10-2038: 64GB The new iPad with Wi-Fi + 4G for Verizon - White (MD365LL/A)
+
