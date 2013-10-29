@@ -14,7 +14,23 @@ zip = sys.argv[2]
 dpcis = sys.argv[3:]
 
 models = {
-    # Currently sold in stores
+    # New models for October 2013
+    '057-10-1351': 'Apple iPad Air 16GB Wi-Fi - Silver/White (MD788LL/A)',
+    '057-10-1352': 'Apple iPad Air 16GB Wi-Fi - Space Gray/Black (MD785LL/A)',
+    '057-10-1354': 'Apple iPad Air 16GB Wi-Fi + Cellular (Verizon) - Silver/White (ME999LL/A)',
+    '057-10-1355': 'Apple iPad Air 32GB Wi-Fi - Silver/White (MD789LL/A)',
+    '057-10-1356': 'Apple iPad Air 32GB Wi-Fi - Space Gray/Black (MD786LL/A)',
+    '057-10-1357': 'Apple iPad Air 32GB Wi-Fi + Cellular (AT&T) - Silver/White (MF529LL/A)',
+    '057-10-1358': 'Apple iPad Air 32GB Wi-Fi + Cellular (Verizon) - Silver/White (MF532LL/A)',
+    '057-10-1359': 'Apple iPad Air 64GB Wi-Fi - Space Gray/Black (MD787LL/A)',
+
+    '057-10-1363': 'Apple iPad mini with Retina display 32GB Wi-Fi - Space Gray/Black (ME277LL/A)',
+    '057-10-1364': 'Apple iPad mini with Retina display 16GB Wi-Fi + Cellular (AT&T)- Silver/White (MF074LL/A)',
+    '057-10-1362': 'Apple iPad mini with Retina display 32GB Wi-Fi - Silver/Whit(ME280LL/A)',
+    '057-10-1361': 'Apple iPad mini with Retina display 16GB Wi-Fi - Space Gray/Black (ME276LL/A)',
+    '057-10-1360': 'Apple iPad mini with Retina display 16GB Wi-Fi - Silver/White(ME279LL/A)',
+
+    # Currently sold in stores, previous generations
     '057-10-0172': 'Apple iPad mini 16GB Wi-Fi - Black (MD528LL/A)',
     '057-10-0173': 'Apple iPad mini 16GB Wi-Fi - White (MD531LL/A)',
     '057-10-0174': 'Apple iPad mini 32GB Wi-Fi - Black (MD529LL/A)',
