@@ -15,23 +15,18 @@ dpci is Target's stock identifier for the iPad you're looking for. You can
 specify multiple dpcis, or none, which will cause the script to look for all
 iPad models around the specified zip code.
 
-List of DPCIs:
- 057-10-2020: 16GB The new iPad with Wi-Fi - Black (MC705LL/A)
- 057-10-2021: 16GB The new iPad with Wi-Fi - White (MD328LL/A)
- 057-10-2022: 32GB The new iPad with Wi-Fi - Black (MC706LL/A)
- 057-10-2023: 32GB The new iPad with Wi-Fi - White (MD329LL/A)
- 057-10-2024: 64GB The new iPad with Wi-Fi - Black (MC707LL/A)
- 057-10-2025: 64GB The new iPad with Wi-Fi - White (MD330LL/A)
- 057-10-2026: 16GB The new iPad with Wi-Fi + 4G for AT&T - Black (MD366LL/A)
- 057-10-2027: 16GB The new iPad with Wi-Fi + 4G for AT&T - White (MD369LL/A)
- 057-10-2028: 32GB The new iPad with Wi-Fi + 4G for AT&T - Black (MD367LL/A)
- 057-10-2029: 32GB The new iPad with Wi-Fi + 4G for AT&T - White (MD370LL/A)
- 057-10-2030: 64GB The new iPad with Wi-Fi + 4G for AT&T - Black (MD368LL/A)
- 057-10-2031: 64GB The new iPad with Wi-Fi + 4G for AT&T - White (MD371LL/A)
- 057-10-2032: 16GB The new iPad with Wi-Fi + 4G for Verizon - Black (MC733LL/A)
- 057-10-2033: 16GB The new iPad with Wi-Fi + 4G for Verizon - White (MD363LL/A)
- 057-10-2034: 32GB The new iPad with Wi-Fi + 4G for Verizon - Black (MC744LL/A)
- 057-10-2036: 32GB The new iPad with Wi-Fi + 4G for Verizon - White (MD364LL/A)
- 057-10-2037: 64GB The new iPad with Wi-Fi + 4G for Verizon - Black (MC756LL/A)
- 057-10-2038: 64GB The new iPad with Wi-Fi + 4G for Verizon - White (MD365LL/A)
-
+List of DPCIs (newest iPads only):
+ 057-10-1351: Apple iPad Air 16GB Wi-Fi - Silver/White (MD788LL/A)
+ 057-10-1352: Apple iPad Air 16GB Wi-Fi - Space Gray/Black (MD785LL/A)
+ 057-10-1353: Apple iPad Air 16GB Wi-Fi + Cellular (AT&T) - Silver/White (ME999LL/A)
+ 057-10-1354: Apple iPad Air 16GB Wi-Fi + Cellular (Verizon) - Silver/White (ME999LL/A)
+ 057-10-1355: Apple iPad Air 32GB Wi-Fi - Silver/White (MD789LL/A)
+ 057-10-1356: Apple iPad Air 32GB Wi-Fi - Space Gray/Black (MD786LL/A)
+ 057-10-1357: Apple iPad Air 32GB Wi-Fi + Cellular (AT&T) - Silver/White (MF529LL/A)
+ 057-10-1358: Apple iPad Air 32GB Wi-Fi + Cellular (Verizon) - Silver/White (MF532LL/A)
+ 057-10-1359: Apple iPad Air 64GB Wi-Fi - Space Gray/Black (MD787LL/A)
+ 057-10-1360: Apple iPad mini with Retina display 16GB Wi-Fi - Silver/White(ME279LL/A)
+ 057-10-1361: Apple iPad mini with Retina display 16GB Wi-Fi - Space Gray/Black (ME276LL/A)
+ 057-10-1362: Apple iPad mini with Retina display 32GB Wi-Fi - Silver/Whit(ME280LL/A)
+ 057-10-1363: Apple iPad mini with Retina display 32GB Wi-Fi - Space Gray/Black (ME277LL/A)
+ 057-10-1364: Apple iPad mini with Retina display 16GB Wi-Fi + Cellular (AT&T)- Silver/White (MF074LL/A)
