@@ -2,7 +2,6 @@
 
 import urllib
 import urllib2
-from bs4 import BeautifulSoup
 import smtplib
 from email.mime.text import MIMEText
 import sys
@@ -96,7 +95,9 @@ if not dpcis:
 
 jsonurl = 'http://api.target.com/products/v3/saleable_quantity_by_location?key=q0jGNkIyuqUTYIlzZKoCfK6ugaNGSP8h'
 
+# This only needs to be called if Target changes the key in the URL above and we need to find it out. So far it hasn't changed.
 def getjsonurl():
+    from bs4 import BeautifulSoup
     fiatsurl = 'http://www.target.com/FiatsCmd?'
     # Get a key to look stuff up with. Use any item get the current key.
     fiatsdata = urllib.urlencode({
@@ -156,10 +157,9 @@ for product in products:
             results += "    %s: %s (Qty: %d)\n" % (store['store_name'], store['availability_status'], store['saleable_quantity'])
             if store['store_id'] not in stores:
                 stores[store['store_id']] = store
-    results += '\n'
 
 if stores:
-    results += 'Store addresses:\n'
+    results += '\nStore addresses:\n'
     for store in stores.itervalues():
         results += "    %s: %s\n" % (store['store_name'], store['store_address'])
     
